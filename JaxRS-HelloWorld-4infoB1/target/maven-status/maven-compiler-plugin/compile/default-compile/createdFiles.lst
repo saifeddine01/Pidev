@@ -1,0 +1,4 @@
+rest\ressource\HelloRessource.class
+rest\ressource\EmployeeResource.class
+rest\utilities\JaxRSActivator.class
+rest\ressource\Employee.class
