@@ -27,6 +27,7 @@ public class EmployeeResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response afficherListEmploye() {
 		ListeEmploye.add(e);
+		System.out.println("Hello it is pushed !!");
 		return Response.status(Status.OK).entity(ListeEmploye).build();
 	}
 
